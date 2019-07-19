@@ -12,7 +12,7 @@ The Original Code is: SynEditHighlighter.pas, released 2000-04-07.
 The Original Code is based on mwHighlighter.pas by Martin Waldenburg, part of
 the mwEdit component suite.
 Portions created by Martin Waldenburg are Copyright (C) 1998 Martin Waldenburg.
-Unicode translation by Maël Hörz.
+Unicode translation by Mael Horz.
 Options property added by CodehunterWorks
 All Rights Reserved.
 
@@ -1111,8 +1111,8 @@ end;
 function TSynCustomHighlighter.IsWordBreakChar(AChar: WideChar): Boolean;
 begin
   case AChar of
-    '.', ',', ';', ':', '"', '''', '´', '`', '°', '^', '!', '?', '&',
-    '$', '@', '§', '%', '#', '~', '[', ']', '(', ')', '{', '}', '<', '>',
+    '.', ',', ';', ':', '"', '''', '¢¥', '`', '¡Æ', '^', '!', '?', '&',
+    '$', '@', '¡×', '%', '#', '~', '[', ']', '(', ')', '{', '}', '<', '>',
     '-', '=', '+', '*', '/', '\', '|':
       Result := True;
     else
